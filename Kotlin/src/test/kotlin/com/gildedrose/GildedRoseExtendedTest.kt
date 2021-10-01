@@ -3,7 +3,7 @@ package com.gildedrose
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 
-internal class GildedRoseTest {
+internal class GildedRoseExtendedTest {
 
     @Test
     fun `quality degrades twice as fast once sell date has passed`() {
@@ -13,7 +13,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(2) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -22,7 +22,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(2) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -38,7 +38,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(4) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -54,7 +54,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(3) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -71,7 +71,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(8) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -86,7 +86,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(4) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
@@ -110,7 +110,7 @@ internal class GildedRoseTest {
         val app = GildedRose(items)
 
         // Act
-        app.updateQuality()
+        app.updateQualityExtended()
 
         // Assert
         assertEquals(11, app.items[0].quality)
@@ -129,7 +129,7 @@ internal class GildedRoseTest {
 
         // Act
         repeat(2) {
-            app.updateQuality()
+            app.updateQualityExtended()
         }
 
         // Assert
