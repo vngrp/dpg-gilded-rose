@@ -1,7 +1,7 @@
 Hi dpg'er,
 
 Thanks for checking the assigment. It was quitte a fun one to code.
-It includes 2 solutions, first one follows all requirements. Second one is how I would normally program it. They have their own test file. Looking forward to talking about the solutions together.
+It includes 2 solutions, first one follows all requirements (leaving item class untouched). Second one is how I would normally program it. They have their own test file. Looking forward to talking about the solutions together.
 
 Here are some of my thoughts in advance, that I had during the programming
 
