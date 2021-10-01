@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.gildedrose.GildedRoseExtendedTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-10-01T13:10:22" hostname="Pims-MacBook-Pro.local" time="0.054">
+  <properties/>
+  <testcase name="quality of items cannot increase above limit()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.034"/>
+  <testcase name="quality of an item is never negative()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.001"/>
+  <testcase name="quality degrades twice as fast once sell date has passed()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.0"/>
+  <testcase name="quality of aged items increases the older they get()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.001"/>
+  <testcase name="backstage passes increase in quality towards concert date, but lose all quality after it()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.012"/>
+  <testcase name="legendary item has a constant quality over time()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.001"/>
+  <testcase name="Conjured items degrade in Quality twice as fast as normal items()" classname="com.gildedrose.GildedRoseExtendedTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
